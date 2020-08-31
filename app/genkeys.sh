@@ -1,0 +1,1 @@
+keytool -genkeypair -noprompt -keystore checker.jks -storepass password -alias checker -keypass password -dname "CN=Checker O=TrustArea C=RU" -validity 10000 -sigalg SHA256withRSA -keyalg RSA -keysize 2048
